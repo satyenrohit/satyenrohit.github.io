@@ -1,0 +1,123 @@
+/* ===================================
+MOBILE RESPONSIVE
+=================================== */
+
+@media (max-width:768px){
+
+/* NAVIGATION */
+
+.navbar{
+
+flex-direction:column;
+
+gap:20px;
+
+padding:20px 0;
+
+}
+
+.nav-menu{
+
+flex-wrap:wrap;
+
+justify-content:center;
+
+gap:20px;
+
+}
+
+/* HERO */
+
+.hero{
+
+padding-top:140px;
+
+min-height:auto;
+
+padding-bottom:100px;
+
+}
+
+.hero-content{
+
+padding-left:0;
+
+text-align:center;
+
+}
+
+.hero h1{
+
+font-size:56px;
+
+}
+
+.hero h2{
+
+font-size:30px;
+
+}
+
+.hero p{
+
+font-size:19px;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+flex-wrap:wrap;
+
+}
+
+/* ABOUT */
+
+.about-grid{
+
+grid-template-columns:1fr;
+
+gap:50px;
+
+text-align:center;
+
+}
+
+/* FEATURED BOOK */
+
+.book-grid{
+
+grid-template-columns:1fr;
+
+gap:60px;
+
+text-align:center;
+
+}
+
+.book-image img{
+
+width:70%;
+
+}
+
+/* STORIES */
+
+blockquote{
+
+font-size:32px;
+
+}
+
+/* FOOTER */
+
+.footer-links{
+
+flex-direction:column;
+
+gap:20px;
+
+}
+
+}
